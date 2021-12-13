@@ -7,11 +7,12 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.05);
+  background: #1c1c1e;
 `
 
 export const Title = styled.h1`
   text-align: center;
+  color: #ffffff;
 `
 
 export const Logo = styled.div`
@@ -44,4 +45,6 @@ export const Field = styled.div`
   margin: 10px 0;
 `
 
-export const Label = styled.label``
+export const Label = styled.label`
+  color: #ffffff;
+`

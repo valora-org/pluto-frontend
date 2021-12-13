@@ -11,10 +11,32 @@ function Goals() {
           <S.TextGroup>
             <S.Title>Parar de fazer</S.Title>
             <S.Description>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              similique molestiae nesciunt corporis pariatur perferendis ipsum
-              tempore, quae sit aspernatur beatae optio eos recusandae vitae
-              labore dolores? Itaque, reiciendis quasi.
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  id minus quae quibusdam sunt aut dignissimos. Facilis nemo
+                  nihil asperiores excepturi sed nam quae natus perferendis
+                  atque expedita? Laudantium, illo?
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  id minus quae quibusdam sunt aut dignissimos. Facilis nemo
+                  nihil asperiores excepturi sed nam quae natus perferendis
+                  atque expedita? Laudantium, illo?
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  id minus quae quibusdam sunt aut dignissimos. Facilis nemo
+                  nihil asperiores excepturi sed nam quae natus perferendis
+                  atque expedita? Laudantium, illo?
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                  id minus quae quibusdam sunt aut dignissimos. Facilis nemo
+                  nihil asperiores excepturi sed nam quae natus perferendis
+                  atque expedita? Laudantium, illo?
+                </li>
+              </ul>
             </S.Description>
           </S.TextGroup>
           <S.TextGroup>

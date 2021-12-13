@@ -9,10 +9,13 @@ export const Body = styled.div`
   padding: 20px;
   display: flex;
   flex-direction: column;
+  background: #1c1c1e;
+  color: white;
 `
 
 export const Title = styled.h1`
   text-align: center;
+  color: white;
 `
 
 export const Cards = styled.div`
@@ -27,10 +30,14 @@ export const CardVote = styled.div<{ active: boolean }>`
   padding: 15px;
   min-height: 100px;
   border: ${({ active }) =>
-    active ? '1px solid rgba(0, 0, 0, 1)' : '1px solid rgba(0, 0, 0, 0.2)'};
+    active
+      ? '1px solid rgba(123, 122, 205, 1)'
+      : '1px solid rgba(123, 122, 205, 0.2)'};
   border-radius: 7px;
 `
-export const Descriptions = styled.p``
+export const Descriptions = styled.p`
+  color: white;
+`
 
 export const Votes = styled.div`
   width: 100%;
@@ -42,7 +49,7 @@ export const Cicle = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(123, 122, 205);
   justify-content: center;
   align-items: center;
   display: flex;

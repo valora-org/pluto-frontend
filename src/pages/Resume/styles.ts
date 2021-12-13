@@ -11,16 +11,20 @@ export const Body = styled.div`
   gap: 15px 0;
   padding: 20px;
   position: relative;
+  background: #1c1c1e;
+  color: white;
 `
 
-export const TitlePage = styled.h1``
+export const TitlePage = styled.h1`
+  color: white;
+`
 
 export const GroupList = styled.div`
   width: 80%;
   min-width: 100px;
   padding: 10px;
   display: flex;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid #7b7acd;
   border-radius: 6px;
 `
 
@@ -34,7 +38,7 @@ export const ListText = styled.div`
   margin-top: 40px;
 
   &.first-line {
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid #7b7acd;
   }
 `
 
@@ -43,10 +47,13 @@ export const TextGroup = styled.div`
   margin-bottom: 20px;
 `
 
-export const Title = styled.h2``
+export const Title = styled.h2`
+  color: white;
+`
 
 export const Description = styled.p`
   margin-top: 10px;
+  color: white;
 `
 
 export const AreaText = styled.div`
@@ -57,16 +64,19 @@ export const AreaText = styled.div`
   top: 20px;
 `
 
-export const Label = styled.h1``
+export const Label = styled.h1`
+  color: white;
+`
 
 export const TextArea = styled.textarea`
   height: 300px;
   resize: none;
   border-radius: 6px;
   padding: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid #7b7acd;
   width: 100%;
   outline: none;
+  color: white;
 `
 export const ButtonArea = styled.div`
   width: 100%;

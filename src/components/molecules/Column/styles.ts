@@ -12,7 +12,7 @@ export const Container = styled.div`
   height: calc(100vh - 150px);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 7px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #242426;
   position: relative;
 `
 
@@ -20,7 +20,7 @@ export const Footer = styled.div`
   width: 100%;
   height: 20px;
   position: absolute;
-  background: white;
+  background: #242426;
   bottom: 0;
   right: 0;
   left: 0;
@@ -48,7 +48,7 @@ export const Content = styled.div`
 
   &:hover {
     ::-webkit-scrollbar-thumb {
-      background: #252525;
+      background: #7b7acd;
     }
   }
 
@@ -61,20 +61,22 @@ export const Content = styled.div`
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #252525;
+    background: #7b7acd;
   }
 `
 
 export const Card = styled.div`
   width: 100%;
   height: fit-content;
-  background: white;
+  background: #242426;
   padding: 10px;
   border-radius: 5px;
 `
 export const Title = styled.div`
   width: 100%;
-  background: white;
+  background: #242426;
+  border-bottom: 1px dotted #7b7acd;
+  color: white;
   border-radius: 7px 7px 0 0;
   padding: 10px;
 `

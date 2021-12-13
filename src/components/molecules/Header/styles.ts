@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.05);
+  background: #242426;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 `
 
@@ -22,12 +22,13 @@ export const Logo = styled.div`
 export const RestTime = styled.div`
   width: fit-content;
   padding: 10px;
-  border: 1px dotted #252525;
+  border: 1px dotted #7b7acd;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0 10px;
   border-radius: 3px;
+  color: #fff;
 `
 
 export const Label = styled.span`
